@@ -1,0 +1,72 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    padding:0;
+    margin:0;
+    list-style: none;
+    border:0;
+}
+
+html{
+    padding: 2%;
+}
+
+.cabecalho {
+    padding: 0 20%;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    display: flex;
+}
+
+.cabecalho span{
+    color: #2A7AE4;
+}
+
+.cabecalho h2{
+    font-weight: 700;
+}
+
+.topAluraGeek{
+    display: flex;
+    padding: 0% 2em;
+}
+
+.topProcurarSessao{
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.cabecalho-esquerda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-procurar{
+    background-color: #F5F5F5;
+    resize:none;
+    display: block;
+    outline: none;
+    text-align: center;
+    /* margin: 0 0 20px;
+    padding: 3% 2%;
+    width: 50%; */
+}
+
+.procurar-btn{
+    background-color: #F5F5F5
+}
+
+.login-button {
+    border: 2px solid #2A7AE4;
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2A7AE4;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #D4E4FA;
+  }
