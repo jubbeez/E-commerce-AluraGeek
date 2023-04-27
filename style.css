@@ -26,7 +26,7 @@ html{
     font-weight: 700;
 }
 
-.topAluraGeek{
+.aluraGeek{
     display: flex;
     padding: 0% 2em;
 }
@@ -70,3 +70,11 @@ html{
   .login-button:hover {
     background-color: #D4E4FA;
   }
+
+  .cabecalho2{
+    background-image: url("./assets/img/cabecalho2.svg");
+  }
+
+  .rodape span{
+    color: #2A7AE4;
+}
