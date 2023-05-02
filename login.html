@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Login</title>
 </head>
 <header>
 
-    <div class="cabecalho"> 
+    <div class="cabecalho">
 
         <div class="cabecalho-esquerda">
-            
-            <div class="topAluraGeek">
-                <img src="./assets/img/cabecalho_videogame.svg" class="topImagem">
-                <h2 class="topFrase"><span>Alura</span>Geek</h2>
+            <div class="aluraGeek">
+                <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+                <h2 class="alura"><span>Alura</span>Geek</h2>
             </div>
 
             <div class="topProcurarSessao">
@@ -23,14 +27,64 @@
                 <button class="procurar-btn"></button><img src="./assets/img/btn-procurar.svg">
             </div>
             
-        </div>   
+        </div>
+
+        <div><button class="login-button">Login</button></div>     
 
     </div>
 
 </header>
 <body>
-    <div>
-        
-    </div>
+
+    <h2>Iniciar Sessão</h2>
+    <form
+    action="https://formspree.io/f/xrgvojkb"
+    method="POST"
+    >
+
+    <label for="email"></label>
+    <input type="text" id="email" class="form" required placeholder="Escreva seu e-mail">
+
+    <label for="senha"></label>
+    <textarea id="senha" cols="60" rows="10" class="form" required placeholder="Escreva sua senha"></textarea>
+
+    <input type="submit" value="Entrar" class="btn-entrar" data-button>
+</form>
 </body>
+
+
+<footer>
+    <div class="rodape">
+            <div class="aluraGeek">
+                <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+                <h2 class="alura"><span>Alura</span>Geek</h2>
+            </div>
+            <p>Quem somos nós</p>
+            <p>Política de privacidade</p> 
+            <p>Programa fidelidade</p>
+            <p>Nossas lojas</p>
+            <p>Quero ser franqueado</p>
+            <p>Anuncie aqui</p>
+        </div>
+    </div>  
+
+    <h2>Fale conosco</h2> 
+        <!-- colocar email meu e do kiki -->
+    <form
+    action="https://formspree.io/f/xrgvojkb" 
+    method="POST">
+
+    <label for="nome"></label>
+    <input type="text" id="nome" class="form" required placeholder="Nome">
+
+    <label for="mensagem"></label>
+    <textarea id="mensagem" cols="60" rows="10" class="form" required placeholder="Mensagem"></textarea>
+
+    <input type="submit" value="Enviar mensagem" class="btn-enviar" data-button>
+</form> 
+
+<p class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</p>
+
+</footer> 
+
 </html>
