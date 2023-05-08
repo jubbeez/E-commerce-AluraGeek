@@ -102,6 +102,7 @@ html{
 
 .pai-produtos{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .pai-produtos li{
