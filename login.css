@@ -1,5 +1,9 @@
 footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
     background-color: #EAF2FD;
+    padding: 3% 5%;
 }
 
 .rodape{
@@ -8,17 +12,26 @@ footer{
     justify-content: space-around;
 }
 
+.tabela-informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
 form {
-    width: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .form{
     resize: none;
     display: block;
-    margin: 1rem;
+    margin-top: 1rem;
     padding: 3% 2%;
-    width: 70%;
+    width: 100%;
     outline: none;
 }
 
