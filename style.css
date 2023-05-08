@@ -71,7 +71,7 @@ html{
     background-color: #D4E4FA;
   }
 
-  .rodape span{
+.rodape span{
     color: #2A7AE4;
 }
 
@@ -90,7 +90,7 @@ html{
 .link-verTudo{
     display: flex;
     align-items: center;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 
 .link-verTudo a{
