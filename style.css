@@ -66,9 +66,11 @@
   .login-button:hover {
     background-color: #D4E4FA;
   }
-  
-
 
   .rodape span{
     color: #2A7AE4;
+}
+
+.pai-starWars{
+    display: flex;
 }
