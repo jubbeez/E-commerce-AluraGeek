@@ -7,6 +7,10 @@
     border:0;
 }
 
+html{
+    min-width: 320px;
+}
+
 .cabecalho {
     padding: 0 20%;
     background-color: #FFFFFF;
@@ -71,6 +75,25 @@
     color: #2A7AE4;
 }
 
-.pai-starWars{
+.titulo-produtos{
     display: flex;
+    justify-content: space-between;
+}
+
+.titulo-produtos a{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+.pai-produtos{
+    display: flex;
+}
+
+.pai-produtos ul{
+    margin-right: 1.0rem;
+}
+
+.sectionProdutos{
+    padding: 10%;
+    background-color: #E5E5E5;
 }
