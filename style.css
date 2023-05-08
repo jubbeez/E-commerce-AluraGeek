@@ -80,11 +80,18 @@ html{
     justify-content: space-between;
 }
 
-.titulo-produtos a{
+.link-verTudo{
+    display: flex;
+    align-items: center;
+}
+
+.link-verTudo a{
     text-decoration: none;
     color: #2A7AE4;
     font-weight: bold;
+    margin-right: 1rem;
 }
+
 .pai-produtos{
     display: flex;
 }
