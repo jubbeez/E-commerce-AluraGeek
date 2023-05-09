@@ -82,16 +82,14 @@ html{
     padding-right: 6.5rem;
 }
 
-.titulo-produtos{
-    display: flex;
-    justify-content: space-between;
-}
 
 .link-verTudo{
     display: flex;
     align-items: center;
-    /* padding-right: 2rem; */
-}
+    position: absolute;
+    top: -10px;
+    right: 0
+} 
 
 .link-verTudo a{
     text-decoration: none;
@@ -104,11 +102,16 @@ html{
     display: flex;
 }
 
+.pai-produtos .ultima-imagem {
+    position: relative;
+
+}
+
 .pai-produtos li{
     margin-right: 1.0rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
-}
+}  
 
 .teste{
     display: flex;
