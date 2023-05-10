@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     
@@ -229,37 +230,38 @@
 </body>
 <footer>
     <div class="rodape">
-            <div class="aluraGeek">
-                <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
-                <h2 class="alura"><span>Alura</span>Geek</h2>
-            </div>
-            <div class="tabela-informacoes">
-                <p>Quem somos nós</p>
-                <p>Política de privacidade</p> 
-                <p>Programa fidelidade</p>
-                <p>Nossas lojas</p>
-                <p>Quero ser franqueado</p>
-                <p>Anuncie aqui</p>
-            </div>
+        <div class="aluraGeek">
+            <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+            <h2 class="alura"><span>Alura</span>Geek</h2>
         </div>
-    </div>  
+        <div class="tabela-informacoes">
+            <p>Quem somos nós</p>
+            <p>Política de privacidade</p> 
+            <p>Programa fidelidade</p>
+            <p>Nossas lojas</p>
+            <p>Quero ser franqueado</p>
+            <p>Anuncie aqui</p>
+        </div>
 
-    <h2>Fale conosco</h2> 
-    <form
-    action="https://formspree.io/f/xrgvojkb"
-    method="POST"
-    >
+    <!-- colocar email meu e do kiki -->
+        <form
+        action="https://formspree.io/f/xrgvojkb" 
+        method="POST">
 
-    <label for="nome"></label>
-    <input type="text" id="nome" class="form" required placeholder="Nome">
+        <h2>Fale conosco</h2> 
 
-    <label for="mensagem"></label>
-    <textarea id="mensagem" cols="60" rows="10" class="form" required placeholder="Mensagem"></textarea>
+        <label for="nome"></label>
+        <input type="text" id="nome" class="form" required placeholder="Nome">
 
-    <input type="submit" value="Enviar mensagem" class="btn-enviar" data-button>
-</form>
+        <label for="mensagem"></label>
+        <textarea id="mensagem" cols="60" rows="10" class="form" required placeholder="Escreva sua mensagem"></textarea>
+
+        <input type="submit" value="Enviar mensagem" class="btn-enviar" data-button>
+        </form> 
+
+    </div> 
+</footer> 
 
 <p class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</p>
 
-</footer> 
 </html>
