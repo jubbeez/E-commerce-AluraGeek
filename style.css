@@ -102,7 +102,6 @@ html{
 
 .pai-produtos{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .pai-produtos li{
@@ -111,7 +110,7 @@ html{
     padding-bottom: 4rem;
 }
 
-.teste{
+.conteudoProdutos{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
