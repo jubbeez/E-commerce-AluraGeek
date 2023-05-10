@@ -84,6 +84,24 @@ h2{
     right: 0
 } 
 
+.btnAdicionarProduto{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    padding: 20px;
+}
+
+.btnAdicionarProduto button{
+    text-decoration: none;
+    background-color: #2A7AE4;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
 .link-verTudo a{
     text-decoration: none;
     color: #2A7AE4;
