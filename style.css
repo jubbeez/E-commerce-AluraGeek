@@ -87,7 +87,7 @@ html{
     display: flex;
     align-items: center;
     position: absolute;
-    top: -10px;
+    top: -1rem;
     right: 0
 } 
 
@@ -120,5 +120,3 @@ html{
     justify-content: space-around;
     height: 80px;
 }
-
-
