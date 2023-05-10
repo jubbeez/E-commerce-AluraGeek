@@ -11,8 +11,12 @@ html{
     min-width: 320px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .cabecalho {
-    padding: 0 20%;
+    margin: 1rem 20rem;
     background-color: #FFFFFF;
     justify-content: space-between;
     display: flex;
@@ -31,32 +35,26 @@ html{
     padding: 0% 2em;
 }
 
-.topProcurarSessao{
-    display: flex;
-    background-color: #F5F5F5;
-}
-
 .cabecalho-esquerda{
     display: flex;
     justify-content: space-around;
     align-items: center;
+} 
+
+.topProcurarSessao{
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 1rem;
 }
 
 .input-procurar{
-    background-color: #F5F5F5;
+    background-color: transparent;
     resize:none;
-    display: block;
     outline: none;
-    text-align: center;
-    /* margin: 0 0 20px;
-    padding: 3% 2%;
-    width: 50%; */
+    padding: 0% 3%;
+    width: 25rem;
 }
-
-.procurar-btn{
-    background-color: #F5F5F5
-}
-
+  
 .login-button {
     border: 2px solid #2A7AE4;
     border-radius: 0px;
@@ -65,21 +63,16 @@ html{
     color: #2A7AE4;
     font-size: 16px;
     cursor: pointer;
-  }
+}
   
-  .login-button:hover {
+.login-button:hover {
     background-color: #D4E4FA;
-  }
-
-.rodape span{
-    color: #2A7AE4;
 }
 
 .sectionProdutos{
     padding-top: 3rem;
     background-color: #E5E5E5;
-    padding-left: 1.0rem;
-    padding-right: 6.5rem;
+    padding: 5% 10%;
 }
 
 
@@ -113,6 +106,12 @@ html{
     padding-top: 1rem;
     padding-bottom: 4rem;
 }  
+
+.pai-produtos li a{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}
 
 .conteudoProdutos{
     display: flex;
