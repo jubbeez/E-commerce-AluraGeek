@@ -107,7 +107,7 @@ h2{
     padding-bottom: 4rem;
 }  
 
-.pai-produtos li a{
+.pai-produtos .verProdutoColorido{
     text-decoration: none;
     color: #2A7AE4;
     font-weight: bold;
