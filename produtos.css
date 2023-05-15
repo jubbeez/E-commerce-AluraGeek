@@ -52,3 +52,22 @@
 .pai-produtos li a{
     text-decoration: none;
 }
+
+.pai-produtos li{
+    margin-right: 1.0rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    position: relative;
+}  
+
+.lixinhoLapis{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    top: 1.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+
