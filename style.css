@@ -108,6 +108,10 @@ h2{
     padding-bottom: 4rem;
 }  
 
+.pai-produtos li:nth-child(6n){
+    margin-right: 0;
+}  
+
 .pai-produtos .verProdutoColorido{
     text-decoration: none;
     color: #2A7AE4;
