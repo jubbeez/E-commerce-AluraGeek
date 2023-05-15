@@ -30,19 +30,15 @@
     right: 0
 } 
 
-.btnAdicionarProduto{
-    display: flex;
-    align-items: center;
+.btnAdicionarProduto{    
     position: absolute;
-    top: -1rem;
+    top: -3rem;
     right: 0;
-    padding: 20px;
 }
 
 .btnAdicionarProduto button{
     background-color: #2A7AE4;
-    padding: 3% 5%;
-    margin-top: 2%;
+    padding: 16px;
     color: #FFFFFF;
     font-size: 16px;   
 }
