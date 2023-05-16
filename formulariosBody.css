@@ -1,5 +1,5 @@
 .input-container {
-    font-weight: var(--fonte-peso-input);
+    margin-bottom: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,14 +8,12 @@
 }
 
 .input {
-    resize: none;
-    margin-top: 1rem;
-    padding: 1.5rem 6.0rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--cor-secundaria);
+    /* padding: 10% 100%; */
+    height: 3.25rem;
     width: 100%;
-    outline: none;
-    box-shadow: 0px 1px #C8C8C8;
-}
-
+} 
 .input::placeholder {
     visibility: hidden;
     color: #00000000;
@@ -27,17 +25,16 @@
 
 .input-label {
     position: absolute;
-    top: 2rem;
-    left: 0.5rem;
+    font-size: 0.875rem;
+    top: 1.02rem;
     transition: all .25s;
 }
 
 .input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     top: 0.25rem;
     transition: all .25s;
 }
-
 
 .iniciarSessao{
     display: flex;
