@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./produtos.css">
+    <link rel="stylesheet" href="./adicionarNovoProduto.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./formulariosBody.css">
+    <link rel="stylesheet" href="/cabecalho.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Adicionar Novo Produto</title>
+</head>
+<header>
+    <div class="cabecalho">
+
+        <div class="cabecalho-esquerda">
+            <div class="aluraGeek">
+                <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+                <h2 class="alura"><span>Alura</span>Geek</h2>
+            </div>
+
+            <div class="topProcurarSessao">
+                <label for="assunto"></label>
+                <input id="procurar" class="input-procurar" placeholder="O que deseja encontrar?"></input>
+                <button class="procurar-btn"></button><img src="./assets/img/btn-procurar.svg">
+            </div>
+            
+        </div>
+
+    </div>
+
+</header>
+<body>
+    <div class="iniciarSessao">
+        <h2>Adicionar novo produto</h2>
+        <form class="login"
+        action="https://formspree.io/f/xrgvojkb"
+        method="POST"
+        >
+
+        <div class="input-container">
+        <input type="text" id="url" class="input" required placeholder="">
+        <label for="url" class="input-label">URL da imagem</label>
+        </div>
+        
+        <div class="input-container">
+        <input type="text" id="categoria" class="input" required placeholder="">
+        <label for="categoria" class="input-label">Categoria</label>
+        </div>
+
+        <div class="input-container">
+        <input id="nomeProduto" class="input" required placeholder=""></input>
+        <label for="nomeProduto" class="input-label">Nome do produto</label>
+        </div>
+
+        <div class="input-container">
+        <input id="precoProduto" class="input" required placeholder=""></input>
+        <label for="precoProduto" class="input-label">Preço do produto</label>
+        </div>
+
+        <div class="input-container">
+        <input id="descricaoProduto" class="input" required placeholder=""></input>
+        <label for="descricaoProduto" class="input-label">Descrição do produto</label>
+        </div>
+
+        <input type="submit" value="Entrar" class="btn-enviarMensagem" data-button>
+        </form>
+    </div>
+</body>
+
+
+<footer>
+    <div class="rodape">
+        <div class="aluraGeek">
+            <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+            <h2 class="alura"><span>Alura</span>Geek</h2>
+        </div>
+        <div class="tabela-informacoes">
+            <p>Quem somos nós</p>
+            <p>Política de privacidade</p> 
+            <p>Programa fidelidade</p>
+            <p>Nossas lojas</p>
+            <p>Quero ser franqueado</p>
+            <p>Anuncie aqui</p>
+        </div>
+
+    <!-- colocar email meu e do kiki -->
+        <form
+        action="https://formspree.io/f/xrgvojkb" 
+        method="POST">
+
+        <h2>Fale conosco</h2> 
+
+        <div class="input-container">
+        <input type="text" id="nome" class="input" required placeholder="">
+        <label for="nome" class="input-label">Nome</label>
+        </div>
+
+        <div class="input-container">
+        <input id="mensagem" cols="60" rows="3" class="input" required placeholder=""></input>
+        <label for="mensagem" class="input-label">Escreva sua mensagem</label>
+        </div>
+
+        <input type="submit" value="Enviar mensagem" class="btn-enviarMensagem btn" data-button>
+        </form> 
+
+    </div> 
+</footer> 
+
+<h3 class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</h3>
+
+</html>
+
+
+</html>
