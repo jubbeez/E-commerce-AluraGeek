@@ -15,7 +15,6 @@
     <title>Login</title>
 </head>
 <header>
-
     <div class="cabecalho">
 
         <div class="cabecalho-esquerda">
@@ -32,66 +31,66 @@
             
         </div>
 
-        <div><button class="login-btn btn">Entrar</button></div>     
-
     </div>
 
 </header>
 <body>
+    <div class="iniciarSessao">
+        <h2>Iniciar Sessão</h2>
+        <form class="login"
+        action="https://formspree.io/f/xrgvojkb"
+        method="POST"
+        >
 
-    <h2>Iniciar Sessão</h2>
-    <form
-    action="https://formspree.io/f/xrgvojkb"
-    method="POST"
-    >
+        <label for="email"></label>
+        <input type="text" id="email" class="form-login" required placeholder="Escreva seu e-mail">
 
-    <label for="email"></label>
-    <input type="text" id="email" class="form" required placeholder="Escreva seu e-mail">
+        <label for="senha"></label>
+        <textarea id="senha" class="form-login" required placeholder="Escreva sua senha"></textarea>
 
-    <label for="senha"></label>
-    <textarea id="senha" cols="60" rows="10" class="form" required placeholder="Escreva sua senha"></textarea>
-
-    <input type="submit" value="Entrar" class="btn-enviarMensagem btn" data-button>
-</form>
+        <input type="submit" value="Entrar" class="btn-enviarMensagem" data-button>
+        </form>
+    </div>
 </body>
 
 
 <footer>
     <div class="rodape">
-            <div class="aluraGeek">
-                <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
-                <h2 class="alura"><span>Alura</span>Geek</h2>
-            </div>
-            <div class="tabela-informacoes">
-                <p>Quem somos nós</p>
-                <p>Política de privacidade</p> 
-                <p>Programa fidelidade</p>
-                <p>Nossas lojas</p>
-                <p>Quero ser franqueado</p>
-                <p>Anuncie aqui</p>
-            </div>
+        <div class="aluraGeek">
+            <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
+            <h2 class="alura"><span>Alura</span>Geek</h2>
+        </div>
+        <div class="tabela-informacoes">
+            <p>Quem somos nós</p>
+            <p>Política de privacidade</p> 
+            <p>Programa fidelidade</p>
+            <p>Nossas lojas</p>
+            <p>Quero ser franqueado</p>
+            <p>Anuncie aqui</p>
+        </div>
 
-        <!-- colocar email meu e do kiki -->
-    <form
-    action="https://formspree.io/f/xrgvojkb" 
-    method="POST">
+    <!-- colocar email meu e do kiki -->
+        <form
+        action="https://formspree.io/f/xrgvojkb" 
+        method="POST">
 
-    <h2>Fale conosco</h2> 
+        <h2>Fale conosco</h2> 
 
-    <label for="nome"></label>
-    <input type="text" id="nome" class="form" required placeholder="Nome">
+        <label for="nome"></label>
+        <input type="text" id="nome" class="form" required placeholder="Nome">
 
-    <label for="mensagem"></label>
-    <textarea id="mensagem" cols="60" rows="10" class="form" required placeholder="Escreva sua mensagem"></textarea>
+        <label for="mensagem"></label>
+        <textarea id="mensagem" cols="60" rows="3" class="form" required placeholder="Escreva sua mensagem"></textarea>
 
-    <input type="submit" value="Enviar mensagem" class="btn-enviar" data-button>
-</form> 
+        <input type="submit" value="Enviar mensagem" class="btn-enviarMensagem btn" data-button>
+        </form> 
 
-</div> 
-
+    </div> 
 </footer> 
 
-<p class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</p>
+<h3 class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</h3>
+
+</html>
 
 
 </html>

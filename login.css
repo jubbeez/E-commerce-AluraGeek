@@ -1,0 +1,42 @@
+form .login{
+    width: 100%;
+    margin: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-login{
+    resize: none;
+    display: block;
+    margin-top: 1rem;
+    padding: 3% 2%;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 1px #C8C8C8;
+}
+
+
+.iniciarSessao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    padding: 10% 30%;
+}
+
+.btn-enviarMensagem {
+    width: 100%;
+    background-color: #2A7AE4;
+    padding: 3% 5%;
+    margin-top: 2%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

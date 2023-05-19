@@ -1,0 +1,73 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    padding:0;
+    margin:0;
+    list-style: none;
+    border:0;
+}
+
+.login-button {
+    border: 2px solid #2A7AE4;
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2A7AE4;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.login-button:hover {
+    background-color: #D4E4FA;
+}
+
+
+.link-verTudo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -1rem;
+    right: 0
+} 
+
+.btnAdicionarProduto{    
+    position: absolute;
+    top: -3rem;
+    right: 0;
+}
+
+.btnAdicionarProduto button{
+    background-color: #2A7AE4;
+    padding: 16px;
+    color: #FFFFFF;
+    font-size: 16px;   
+}
+
+.btnAdicionarProduto:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.pai-produtos li a{
+    text-decoration: none;
+}
+
+.pai-produtos li{
+    margin-right: 1.0rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    position: relative;
+}  
+
+.lixinhoLapis{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    top: 1.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+
