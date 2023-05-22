@@ -22,20 +22,43 @@ footer{
     font-size: 18px;
 }
 
-footer form {
+.input-footer-container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 0.5rem 0rem;
 }
 
-footer .form{
-    resize: none;
-    display: block;
-    margin-top: 1rem;
-    padding: 3% 2%;
-    width: 100%;
-    outline: none;
+.input-footer {
+    box-sizing: border-box;
     box-shadow: 0px 1px #C8C8C8;
+    height: 4rem;
+    width: 30vw;
+} 
+.input-footer::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input-footer:focus {
+    outline: none;
+}
+
+.input-footer-label {
+    position: absolute;
+    font-size: 1rem;
+    top: 2rem;
+    transition: all .25s;
+}
+
+.input-footer:not(:placeholder-shown) + .input-footer-label, .input-footer:focus + .input-footer-label {
+    font-size: 0.5rem;
+    top: 0.25rem;
+    transition: all .25s;
+    font-size: 0.9rem;
+    padding-top: 0.5%;
 }
 
 .btn{
