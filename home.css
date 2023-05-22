@@ -17,6 +17,10 @@ html{
     padding: 5% 5%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .link-verTudo{
     display: flex;
     align-items: center;
