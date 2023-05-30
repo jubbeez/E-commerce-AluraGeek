@@ -1,5 +1,0 @@
-let produtos = [];
-
-function addProdutos{
-    
-}

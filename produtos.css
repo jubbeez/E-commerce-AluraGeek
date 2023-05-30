@@ -40,7 +40,7 @@ a{
     right: 0;
 }
 
-.btnAdicionarProduto button{
+.btnAdicionarProduto button, .aButton{
     background-color: #2A7AE4;
     padding: 16px;
     color: #FFFFFF;
