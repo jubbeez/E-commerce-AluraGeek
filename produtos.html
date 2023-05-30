@@ -28,15 +28,13 @@
                     <img src="./assets/img/cabecalho_videogame.svg" class="img-videogame">
                     <h2 class="alura"><span>Alura</span>Geek</h2>
                 </div>
-
+    
                 <div class="topProcurarSessao">
                     <label for="assunto"></label>
-                    <textarea id="procurar" class="input-procurar" placeholder="O que deseja encontrar?"></textarea>
+                    <input id="procurar" class="input-procurar" placeholder="O que deseja encontrar?">
                     <button class="procurar-btn"></button><img src="./assets/img/btn-procurar.svg">
                 </div>
-                
-            </div> 
-
+            </div>
         </div>
 
     </header>
@@ -108,7 +106,7 @@
                     </li>
                     <li class="ultima-imagem">
                         <div class="btnAdicionarProduto">
-                            <button>Adicionar produto</button>
+                            <a class="aButton" href="./adicionarNovoProduto.html">Adicionar produto</a>
                         </div>
                         <img src="./assets/img/starWars6.svg" alt="">
                         <div class="lixinhoLapis">
@@ -284,8 +282,9 @@
                 </li>
             </ul>
     </section>
-
 </body>
+<script src="./produtos.js"></script>
+
 <footer>
     <div class="rodape">
         <div class="aluraGeek">
@@ -308,14 +307,14 @@
 
         <h2>Fale conosco</h2> 
 
-        <div class="input-container">
-            <input type="text" id="nome" class="input" required placeholder="">
-            <label for="nome" class="input-label">Nome</label>
+        <div class="input-footer-container">
+            <input type="text" id="nome" class="input-footer" required placeholder="">
+            <label for="nome" class="input-footer-label">Nome</label>
         </div>
 
-        <div class="input-container">
-            <input type="text" id="mensagem" class="input" required placeholder="">
-            <label for="mensagem" class="input-label">Escreva sua mensagem</label>
+        <div class="input-footer-container">
+            <input type="text" id="mensagem" class="input-footer" required placeholder="">
+            <label for="mensagem" class="input-footer-label">Escreva sua mensagem</label>
         </div>
 
         <input type="submit" value="Enviar mensagem" class="btn-enviarMensagem btn" data-button>
@@ -324,6 +323,6 @@
     </div> 
 </footer> 
 
-<h3 class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</h3>
+<p class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</p>
 
 </html>

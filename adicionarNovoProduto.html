@@ -27,18 +27,19 @@
 
             <div class="topProcurarSessao">
                 <label for="assunto"></label>
-                <input id="procurar" class="input-procurar" placeholder="O que deseja encontrar?"></input>
+                <input id="procurar" class="input-procurar" placeholder="O que deseja encontrar?">
                 <button class="procurar-btn"></button><img src="./assets/img/btn-procurar.svg">
             </div>
-            
         </div>
+        
+        <div><a href="./produtos.html" class="login-button">Menu administrador</a></div>     
 
     </div>
 
 </header>
 <body>
-    <div class="iniciarSessao">
-        <h2>Adicionar novo produto</h2>
+    <div class="iniciarSessao" style="align-items: flex-start;">
+        <h1>Adicionar novo produto</h1>
         <form class="login"
         action="https://formspree.io/f/xrgvojkb"
         method="POST"
@@ -55,23 +56,32 @@
         </div>
 
         <div class="input-container">
-        <input id="nomeProduto" class="input" required placeholder=""></input>
+        <input id="nomeProduto" class="input" required placeholder="">
         <label for="nomeProduto" class="input-label">Nome do produto</label>
         </div>
 
         <div class="input-container">
-        <input id="precoProduto" class="input" required placeholder=""></input>
+        <input id="precoProduto" class="input" required placeholder="">
         <label for="precoProduto" class="input-label">Preço do produto</label>
         </div>
 
         <div class="input-container">
-        <input id="descricaoProduto" class="input" required placeholder=""></input>
+        <input id="descricaoProduto" class="input" required placeholder="">
         <label for="descricaoProduto" class="input-label">Descrição do produto</label>
         </div>
+
+        <div class="input-container">
+            <input type="file" id="imagem" required>
+            <label for="imagem" class="input-label">Imagem do produto</label>
+        </div>
+
+        <img id="imagem-preview" src="" alt="Imagem do produto">
 
         <input type="submit" value="Entrar" class="btn-enviarMensagem" data-button>
         </form>
     </div>
+
+    <script src="./adicionarNovoProduto.js"></script>
 </body>
 
 
@@ -97,14 +107,14 @@
 
         <h2>Fale conosco</h2> 
 
-        <div class="input-container">
-        <input type="text" id="nome" class="input" required placeholder="">
-        <label for="nome" class="input-label">Nome</label>
+        <div class="input-footer-container">
+        <input type="text" id="nome" class="input-footer" required placeholder="">
+        <label for="nome" class="input-footer-label">Nome</label>
         </div>
 
-        <div class="input-container">
-        <input id="mensagem" cols="60" rows="3" class="input" required placeholder=""></input>
-        <label for="mensagem" class="input-label">Escreva sua mensagem</label>
+        <div class="input-footer-container">
+        <input id="mensagem" cols="60" rows="3" class="input-footer" required placeholder="">
+        <label for="mensagem" class="input-footer-label">Escreva sua mensagem</label>
         </div>
 
         <input type="submit" value="Enviar mensagem" class="btn-enviarMensagem btn" data-button>
@@ -113,7 +123,7 @@
     </div> 
 </footer> 
 
-<h3 class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</h3>
+<p class="copy">&copy; Desenvolvido por Júlia Guarnieri e Erick Stefanic - 2023</p>
 
 </html>
 

@@ -17,6 +17,10 @@ html{
     padding: 5% 5%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .link-verTudo{
     display: flex;
     align-items: center;
@@ -44,7 +48,6 @@ html{
 }
 
 .pai-produtos li{
-    margin-right: 1.0rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
 }  
